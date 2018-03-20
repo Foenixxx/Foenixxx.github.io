@@ -12,9 +12,6 @@ echo "!                                                 !"
 echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 echo && echo && echo
 
-echo "Do you want to install all needed dependencies include Stake wallet ?  (no if you did it before)? [y/n]"
-read DOSETUP
-
   sudo apt-get update
   sudo apt-get -y upgrade
   sudo apt-get -y dist-upgrade
